@@ -3,7 +3,7 @@ Time Complexity - How much time an algorithm takes as input size increases
 Big O - represents the upper bound of running time, it gives the worst case scenario for an algorithm.
 it describes the maximum time an algorithm can take.
 
--------Types Of Time Complexoity--------
+-------Types Of Time Complexity--------
 1. O(1) -> Constant time -> the time taken doesn't depend on the input size, algorithm always runs in the same time
 Eg: 1. count<<"Hello"
     2. for(int i = 0;i<5;i++){
