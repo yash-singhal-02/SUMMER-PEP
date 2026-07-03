@@ -5,7 +5,7 @@ int main(){
     cin>>n;
     int arr[n];
     for(int i=0;i<n;i++){
-        cin>>arr[i];
+        cin>>arr[i]; //[1,1,0,1,1,1]
     }
     int cnt = 0,maxs = 0;
     for(int i=0;i<n;i++){
@@ -17,5 +17,5 @@ int main(){
             cnt = 0;
         }
     }
-    cout<<maxs;
+    cout<<maxs; //3
 }
