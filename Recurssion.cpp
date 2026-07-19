@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 
-// Factorial Using Recursion
 int factorial(int n){
     if(n==1){
         return n;
